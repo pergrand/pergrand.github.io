@@ -5,9 +5,9 @@ header-img: img/404-bg.jpg #显示在首页的背景图片
 email: alilzg@aliyun.com
 description: "Hey，我是洛，一只算法攻城狮,这是我的利用 GitHub Pages 与 Jekyll 搭建的个人博客。" #网站介绍
 keyword: "Lowe, Lowe Blog, 洛的博客, pergrand, 人工智能，深度学习" #关键词
-url: "https://lowe.github.io"          # your host, for absolute URL
+url: "https://pergrand.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/pergrand/lowe.github.io.git" # you code repository
+github_repo: "https://github.com/pergrand/pergrand.github.io.git" # you code repository
 # author: Fe
 
 # 是否托管在Coding_Pages
@@ -64,9 +64,9 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 3f97320f72c696c6b1ae                            #生成的clientID
-  clientSecret: 6c75eaaddc50416a84551cb1649c92dbb1f351be    #生成的clientSecret
-  repo: lowe.github.io    #仓库名称
+  clientID: ae65402291406602eeac                            #生成的clientID
+  clientSecret: 645bdf1b6689c796e408d4b46b527a47bf0477bb    #生成的clientSecret
+  repo: pergrand.github.io    #仓库名称
   owner: pergrand    #github用户名
   admin: pergrand
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
