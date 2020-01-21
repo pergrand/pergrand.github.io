@@ -64,9 +64,9 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 00dceffe67be350b98d1                            #生成的clientID
-  clientSecret: dcd810bbdc0655c2aa82a41e6cdfa2a7e5cfcdb7    #生成的clientSecret
-  repo: perlowe    #仓库名称
+  clientID: 3f681fe7684b7794e233                            #生成的clientID
+  clientSecret: c02322618317c499dd9153cc8774a0cc02b8b3d5    #生成的clientSecret
+  repo: pergrand    #仓库名称
   owner: pergrand    #github用户名
   admin: pergrand
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
