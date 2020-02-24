@@ -64,8 +64,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 3f681fe7684b7794e233                            #生成的clientID
-  clientSecret: c02322618317c499dd9153cc8774a0cc02b8b3d5    #生成的clientSecret
+  clientID: 11308350a2a4b8af18d9                            #生成的clientID
+  clientSecret: e24f795a6e62529b7ef37254af267c407e8efa54    #生成的clientSecret
   repo: blog-comments    #仓库名称
   owner: pergrand    #github用户名
   admin: pergrand
