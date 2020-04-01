@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      关于Lowe Blog
-subtitle:   Lowe Blog
+title:      markdown示例
+subtitle:   markdown
 date:       2020-4-1
 author:     lowe
 header-img: img/post-bg-github-cup.jpg
