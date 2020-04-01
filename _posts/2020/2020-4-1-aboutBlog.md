@@ -14,7 +14,8 @@ catalog: true
 >博客内容
 
 ## 博客搭建
-使用github 搭建属于自己的博客。参考[项目](https://github.com/FeDemo/fedemo.github.io)和[博客](https://www.jianshu.com/p/e68fba58f75c)
+使用github 搭建属于自己的博客。
+参考[项目](https://github.com/FeDemo/fedemo.github.io)和[博客](https://www.jianshu.com/p/e68fba58f75c)
 
 
 ---
