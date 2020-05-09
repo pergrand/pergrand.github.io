@@ -14,10 +14,8 @@ catalog: true
 ><br/>博客内容
 
 ## 博客搭建
-<br/>使用github 搭建属于自己的博客。
+<br/>使用github 搭建属于自己的博客。为什么？不想花时间在HTML上，不熟悉加上懒，虽然曾经做过管理系统类的项目。
 <br/>参考[项目](https://github.com/FeDemo/fedemo.github.io)和[博客](https://www.jianshu.com/p/e68fba58f75c)
-
-
 ---
 ><br/>具有[评论](https://www.cnblogs.com/quanxiaoha/p/10925401.html)功能
 ><br/>具有[搜索](https://github.com/androiddevelop/jekyll-search)功能
@@ -34,6 +32,9 @@ catalog: true
 <br/>1.语音识别
 <br/>2.NLP
 <br/>3.知识图谱
+---
+>会陆陆续续将过去的其他的学习总结搬过来。及重新梳理总结
+
 ### 其他
 <br/>1.Leetcode
 <br/>2.项目实战
