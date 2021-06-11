@@ -47,8 +47,8 @@ tags:
    ```
 
 ************<三数之和>************
-   ```python
-   def threeSum(nums:[int],target) -> [[int]]:  # 输入数组list和目标，返回[[]]
+```python
+ def threeSum(nums:[int],target) -> [[int]]:  # 输入数组list和目标，返回[[]]
        n = len(nums)
        if (not nums or n < 3):  # 如果长度小于3 或者空返回空
            return []
@@ -80,4 +80,5 @@ tags:
    nums = [-1, -2, 3, 4,-3]
    target = 0
    print(threeSum(nums, target))
-   ```
+  
+```
