@@ -48,31 +48,31 @@ tags:
 
 ************<三数之和>************
 ```python
- def threeSum(nums:[int],target) -> [[int]]:  # 输入数组list和目标，返回[[]]
+ def threeSum(nums:[int],target) -> [[int]]:  输入数组list和目标，返回[[]]
        n = len(nums)
-       if (not nums or n < 3):  # 如果长度小于3 或者空返回空
+       if (not nums or n < 3):  如果长度小于3 或者空返回空
            return []
-       nums.sort()  # 数组排序
+       nums.sort()  数组排序
        res = []
-       for i in range(n):  # 遍历数组
-           if (nums[i] > target):  # 如果当前元素大于目标值就可以终止了
+       for i in range(n):   遍历数组
+           if (nums[i] > target):  如果当前元素大于目标值就可以终止了
                return res
-           if (i > 0 and nums[i] == nums[i - 1]):  # 重复元素跳过
+           if (i > 0 and nums[i] == nums[i - 1]):   重复元素跳过
                continue
-           L = i + 1  # 左指针
-           R = n - 1  # 右指针
-           while (L < R):  # 循环 L<R  时间复杂度：n方
-               if (nums[i] + nums[L] + nums[R] == target):  # 等于目标值
+           L = i + 1   左指针
+           R = n - 1   右指针
+           while (L < R):   循环 L<R  时间复杂度：n方
+               if (nums[i] + nums[L] + nums[R] == target):   等于目标值
                    res.append([nums[i], nums[L], nums[R]])
-                   while (L < R and nums[L] == nums[L + 1]):  #判断左界和右界是否和下一位置重复，去除重复解。并同时将 L,RL,R 移到下一位置，寻找新的解
+                   while (L < R and nums[L] == nums[L + 1]):  判断左界和右界是否和下一位置重复，去除重复解。并同时将 L,RL,R 移到下一位置，寻找新的解
                        L = L + 1
                    while (L < R and nums[R] == nums[R - 1]):
                        R = R - 1
                    L = L + 1
                    R = R - 1
-               elif (nums[i] + nums[L] + nums[R] > target):  # 三数之和大于目标，说明 nums[R] 太大，R左移
+               elif (nums[i] + nums[L] + nums[R] > target):   三数之和大于目标，说明 nums[R] 太大，R左移
                    R = R - 1
-               else:   # 三数之和小于目标，说明 nums[L] 太小，L右移
+               else:   三数之和小于目标，说明 nums[L] 太小，L右移
                    L = L + 1
        return res
    
