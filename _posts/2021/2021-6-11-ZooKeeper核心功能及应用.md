@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      ZooKeeper架构设计分析
-subtitle:   ZooKeeper架构设计
+title:      ZooKeeper核心功能及应用
+subtitle:   ZooKeeper核心功能及应用
 date:       2021-6-11
 author:     lowe
 header-img: img/post-bg-github-cup.jpg
